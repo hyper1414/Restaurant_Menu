@@ -3,65 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Delicious Bites Menu</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 30px;
-            line-height: 1.6;
-            background-color: paleturquoise;
-        }
-        h1 {
-            color: #c0392b;
-            text-align: center;
-        }
-        h2 {
-            color: #2c3e50;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        .menu-section {
-            margin-bottom: 30px;
-        }
-        a {
-            color: #2980b9;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="menu-page">
 
-    <h1>Delicious Bites Menu</h1>
+    <nav class="navbar">
+        <a href="#appetizers">Appetizers</a>
+        <a href="#main-courses">Main Courses</a>
+        <a href="#desserts">Desserts</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-    <div class="menu-section">
+    <h1 class="title">Delicious Bites Menu</h1>
+
+    <section id="appetizers" class="menu-section">
         <h2>Appetizers</h2>
         <ul>
-            <li><strong>Garlic Parmesan Breadsticks</strong> – Warm, fluffy breadsticks brushed with garlic butter and sprinkled with Parmesan.</li>
-            <li><strong>Stuffed Mushrooms</strong> – Mushrooms filled with seasoned cream cheese and herbs, baked to golden perfection.</li>
-            <li><strong>Crispy Calamari</strong> – Lightly battered calamari rings served with a zesty marinara dip.</li>
+            <li><strong>Bruschetta</strong> – Grilled bread topped with diced tomatoes, garlic, basil, and olive oil.</li>
+            <li><strong>Spinach Artichoke Dip</strong> – Creamy dip served warm with tortilla chips.</li>
+            <li><strong>Mozzarella Sticks</strong> – Breaded mozzarella fried to golden perfection, served with marinara sauce.</li>
         </ul>
-    </div>
+    </section>
 
-    <div class="menu-section">
+    <section id="main-courses" class="menu-section">
         <h2>Main Courses</h2>
         <ul>
-            <li><strong>Grilled Lemon Herb Chicken</strong> – Juicy chicken breast marinated in lemon and herbs, served with roasted vegetables.</li>
-            <li><strong>Spaghetti Carbonara</strong> – Classic Italian pasta tossed in creamy sauce with pancetta and Parmesan.</li>
-            <li><strong>Veggie Stir-Fry Bowl</strong> – Fresh vegetables stir-fried with soy-ginger sauce over jasmine rice.</li>
+            <li><strong>Margherita Pizza</strong> – Classic pizza with fresh mozzarella, tomatoes, and basil.</li>
+            <li><strong>Grilled Salmon</strong> – Salmon fillet grilled with lemon butter, served with seasonal vegetables.</li>
+            <li><strong>Fettuccine Alfredo</strong> – Fettuccine pasta tossed in a creamy Alfredo sauce with parmesan cheese.</li>
         </ul>
-    </div>
+    </section>
 
-    <div class="menu-section">
+    <section id="desserts" class="menu-section">
         <h2>Desserts</h2>
         <ul>
-            <li><strong>Chocolate Lava Cake</strong> – Warm chocolate cake with a gooey center, served with vanilla ice cream.</li>
-            <li><strong>New York Cheesecake</strong> – Classic, creamy cheesecake with a graham cracker crust and strawberry topping.</li>
-            <li><strong>Fruit Tart</strong> – Buttery tart filled with vanilla custard and topped with fresh seasonal fruit.</li>
+            <li><strong>Tiramisu</strong> – Layers of coffee-soaked ladyfingers and mascarpone cream, dusted with cocoa powder.</li>
+            <li><strong>Chocolate Brownie Sundae</strong> – Warm brownie topped with vanilla ice cream and chocolate syrup.</li>
+            <li><strong>Fruit Sorbet</strong> – Light and refreshing sorbet made from seasonal fruits.</li>
         </ul>
-    </div>
+    </section>
 
-    <p><a href="contact.html">Contact Us</a></p>
+    <p class="contact-link"><a href="contact.html">Contact Us</a></p>
 
 </body>
 </html>
